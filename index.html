@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Meteor Book Store</title>
+</head>
+<body>
+    <div class="app-wrapper">
+    <header class="header-section">
+        <h1 class="green-title-txt">METEOR</h1>
+        <h1 class="title-txt">BOOKS</h1>
+    </header>
+    <section>
+        <div>
+            <h3 class="subtitle">Motor Cautare Carti</h3>
+        </div>
+        <div class="input-wrapper">
+            <input class="text-imput" type="text">
+            <button id="searchButton" class="green-button">Cauta</button>
+            <button id="resetButton" class="green-button">Reseteaza Cautare</button>
+        </div>
+        <div>
+            <h4 class="resultText"></h4>
+        </div>
+    </section>
+    <section>
+        <table class="table-design">
+            <thead>
+              <tr>
+                <th>
+                  Titlu
+                </th>
+                <th>
+                  Autor
+                </th>
+                <th>
+                  Cititori
+                </th>
+              </tr>
+            </thead>
+            <tbody id="bodyTabelCarti">
+              
+            </tbody>
+          </table>
+    </section>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

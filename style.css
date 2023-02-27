@@ -1,0 +1,119 @@
+* {
+	font-family: Poppins;
+	font-size: normal;
+	text-decoration: none;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.app-wrapper{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.header-section{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    gap: 1rem;
+}
+.green-title-txt{
+    color: #00FF00;
+    font-size: 3rem;
+    padding: 0.3rem 0;
+}
+.title-txt{
+    font-size: 3rem;
+    padding: 0.3rem 0;
+}
+.subtitle{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+.resultText{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+}
+.text-imput{
+    width: 60rem;
+    height: 2.4rem;
+    border-radius: 0.6rem 0 0 0.6rem;
+    border-color: lightgray;
+}
+.green-button{
+    border-radius: 0 0.6rem 0.6rem 0;
+    background-color: #00FF00;
+    border:0;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05)
+}
+.table-design{
+    width: 66rem;
+    margin: 1rem 0;
+    border-spacing: 0;
+    border-radius: 5rem;
+}
+.table-design > thead{
+    height: 4rem;
+    background-color: #00FF00;
+}
+
+table th:nth-child(2){
+    text-align: end;
+    padding: 0 1rem;
+}
+table th:first-child{
+    border-radius:10px 0 0 0;
+    text-align: start;
+    padding: 0 1rem;
+  }
+  
+table th:last-child{
+    border-radius:0 10px 0 0;
+    text-align: end;
+    padding: 0 1rem;
+  }
+
+.table-design  thead  tr > th {
+    font-size: 2rem;
+    font-weight: 500;
+}
+tbody tr > td{
+    font-size: 1.2rem;
+}
+
+tbody tr td:first-child{
+    text-align: start;
+    padding: 0.6rem 1rem;
+}
+tbody tr td:nth-child(2){
+    text-align: end;
+    padding: 0.6rem 1rem;
+}
+tbody tr td:last-child{
+    text-align: end;
+    padding: 0.6rem 1rem;
+}
+.green-button:hover{
+    background-color: #0fde08d3;
+    color: white;
+}
+.green-button:active {
+    background-color: #01a601e0;
+    color: white;
+}
+#resetButton{
+    display: none;
+    border-radius: 0.6rem;
+    margin:0 0.8rem;
+}
